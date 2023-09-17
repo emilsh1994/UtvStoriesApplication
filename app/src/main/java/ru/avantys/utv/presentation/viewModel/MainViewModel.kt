@@ -3,13 +3,13 @@ package ru.avantys.utv.presentation.viewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import ru.avantys.utv.domain.model.Story
 import ru.avantys.utv.domain.usecase.GetStoriesUseCase
 import ru.avantys.utv.domain.usecase.SetFavouriteStatusUseCase
-import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
@@ -36,5 +36,4 @@ class MainViewModel @Inject constructor(
             fetchStories()
         }
     }
-
 }

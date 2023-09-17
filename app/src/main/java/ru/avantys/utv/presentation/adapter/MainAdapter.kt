@@ -36,10 +36,16 @@ class MainAdapter(
 
             if (story.isFavourite) {
                 binding.fav.setImageResource(R.drawable.favorite_filled)
-                binding.fav.setColorFilter(binding.root.context.getColor(R.color.fav_filled), PorterDuff.Mode.MULTIPLY)
+                binding.fav.setColorFilter(
+                    binding.root.context.getColor(R.color.fav_filled),
+                    PorterDuff.Mode.MULTIPLY
+                )
             } else {
                 binding.fav.setImageResource(R.drawable.favorite_outline)
-                binding.fav.setColorFilter(binding.root.context.getColor(R.color.fav_outline), PorterDuff.Mode.MULTIPLY)
+                binding.fav.setColorFilter(
+                    binding.root.context.getColor(R.color.fav_outline),
+                    PorterDuff.Mode.MULTIPLY
+                )
             }
 
             binding.root.setOnClickListener {
@@ -90,4 +96,3 @@ class MainAdapter(
         }
     }
 }
-

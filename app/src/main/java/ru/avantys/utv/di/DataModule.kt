@@ -7,9 +7,9 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
 import ru.avantys.utv.data.local.database.Database
 import ru.avantys.utv.data.local.database.StoriesDao
-import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -26,5 +26,4 @@ object DataModule {
     fun provideStoryDAO(database: Database): StoriesDao {
         return database.getStoriesDao()
     }
-
 }

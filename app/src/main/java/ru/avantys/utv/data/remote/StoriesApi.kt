@@ -7,5 +7,4 @@ interface StoriesApi {
 
     @GET("api/v0/stories")
     suspend fun getStories(): ResponseDto
-
 }

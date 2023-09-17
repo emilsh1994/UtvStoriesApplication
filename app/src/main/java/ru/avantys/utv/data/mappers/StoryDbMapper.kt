@@ -1,8 +1,8 @@
 package ru.avantys.utv.data.mappers
 
+import javax.inject.Inject
 import ru.avantys.utv.data.local.model.StoryModel
 import ru.avantys.utv.domain.model.Story
-import javax.inject.Inject
 
 class StoryDbMapper @Inject constructor() {
 

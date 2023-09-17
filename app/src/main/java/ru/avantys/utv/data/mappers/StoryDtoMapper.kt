@@ -1,8 +1,8 @@
 package ru.avantys.utv.data.mappers
 
+import javax.inject.Inject
 import ru.avantys.utv.data.remote.dto.StoryDto
 import ru.avantys.utv.domain.model.Story
-import javax.inject.Inject
 
 class StoryDtoMapper @Inject constructor() {
 
@@ -12,7 +12,7 @@ class StoryDtoMapper @Inject constructor() {
                 name = it.name,
                 url = it.url,
                 logoUrl = it.logoUrl,
-                isFavourite = false,
+                isFavourite = false
             )
         }
     }

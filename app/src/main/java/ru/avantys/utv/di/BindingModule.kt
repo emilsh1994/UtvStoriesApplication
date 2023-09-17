@@ -13,4 +13,5 @@ interface BindingModule {
 
     @Binds
     fun bindStoryRepository(storiesRepositoryImpl: StoriesRepositoryImpl): StoriesRepository
+
 }

@@ -1,4 +1,4 @@
-package ru.avantys.utv.data.dto
+package ru.avantys.utv.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 

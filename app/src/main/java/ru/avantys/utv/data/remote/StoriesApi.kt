@@ -1,7 +1,7 @@
 package ru.avantys.utv.data.remote
 
 import retrofit2.http.GET
-import ru.avantys.utv.data.dto.ResponseDto
+import ru.avantys.utv.data.remote.dto.ResponseDto
 
 interface StoriesApi {
 

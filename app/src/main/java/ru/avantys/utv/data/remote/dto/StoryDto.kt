@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class StoryDto(
     @SerializedName("news_name")
     val name: String = "",
+    @SerializedName("url")
     val url: String = "",
     @SerializedName("image_logo")
     val logoUrl: String = ""

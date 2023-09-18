@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fav_filled">#F91D1D</color>
     <color name="fav_outline">#BDBDBD</color>
+    <color name="gray_6">#F2F2F2</color>
 </resources>

@@ -1,4 +1,4 @@
-package ru.avantys.utv.presentation
+package ru.avantys.utv.presentation.fragments
 
 import android.content.Intent
 import android.net.Uri

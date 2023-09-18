@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import dagger.hilt.android.AndroidEntryPoint
 import ru.avantys.utv.databinding.ActivityMainBinding
-import ru.avantys.utv.presentation.StoriesFragment
+import ru.avantys.utv.presentation.fragments.StoriesFragment
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
